@@ -3,8 +3,8 @@
  React aplikācija izmantojot GraphQl un Apollo bibliotēku.
 
  Lai apskatītu, kā esmu ticis galā ar uzdevumu, pēc repository lejuplādes, atveriet to savā code editor
- un terminālī ievadiet komandu `npm install`, pēc tam atveriet jaunu termināla logu un ievadiet komandu
- `npm run dev`, tad atveriet šo saiti (http://localhost:5173/).
+ un terminālī ievadiet komandu `npm install`, pēc tam ievadiet komandu
+ `npm run dev` un tad atveriet šo saiti (http://localhost:5173/).
 
 <details><summary>Darba uzdevums</summary>
 <p>

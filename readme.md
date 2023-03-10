@@ -32,4 +32,4 @@
 
 ## Preview
 
-![jokes-app](./jokes-app.gif)
+![countries](./countries.gif)

@@ -1,6 +1,10 @@
 # 01-GraphQl Countries
 
- React aplikācija izmantojot GraphQl un Apollo bibliotēku
+ React aplikācija izmantojot GraphQl un Apollo bibliotēku.
+
+ Lai apskatītu, kā esmu ticis galā ar uzdevumu, pēc repository lejuplāde, atveriet to savā code editor
+ un terminālī ievadiet komandu `npm install`, pēc tam atveriet jaunu termināla logu un ievadiet komantu
+ `npm run dev`, tad atveriet šo saiti (http://localhost:5173/).
 
 <details><summary>Darba uzdevums</summary>
 <p>
@@ -25,12 +29,6 @@
 
 </p>
 </details>
-
-
-
-
-
-
 
 ## Preview
 

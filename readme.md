@@ -4,7 +4,6 @@
 
 <details><summary>Darba uzdevums</summary>
 <p>
-Darba uzdevums:
 
 - Jāielādē datus par valstim no servisa (https://countries.trevorblades.com/)
 

@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  min-height: 130px;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 5px 20px;
+  border-top: 1px solid gray;
+  margin-top: 5px;
+}
+
+.heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.image {
+  height: 100px;
+}
+
+.imageContainer {
+  display: flex;
+  min-height: 120px;
+  align-items: center;
+}
+
+.extendedInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.languagesContainer {
+  display: flex;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(211, 211, 211);
+  padding: 4px 8px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  font-size: 0.75rem;
+  margin-left: 10px;
+}

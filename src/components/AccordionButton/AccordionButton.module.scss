@@ -1,0 +1,22 @@
+.button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.15s;
+  cursor: pointer;
+}
+
+.buttonActive {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  transform: rotate(-90deg);
+  transition: transform 0.15s;
+  cursor: pointer;
+}

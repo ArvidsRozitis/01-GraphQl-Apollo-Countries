@@ -23,10 +23,12 @@ export interface Country {
   currency: string;
   languages: Language[];
 }
+
 interface Language {
   code: string;
   name: string;
 }
+
 interface Continent {
   code: string;
   name: String;

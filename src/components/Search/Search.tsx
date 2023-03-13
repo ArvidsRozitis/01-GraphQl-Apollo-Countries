@@ -5,9 +5,7 @@ interface SearchProps {
 }
 
 const Search = ({setFilterBy}: SearchProps) => {
-
   return (
-    
     <div className={styles.searchContainer}>
       <label className={styles.searchBox}>
         <div className={styles.inputContainer}>

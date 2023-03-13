@@ -1,7 +1,6 @@
 import { Country } from "../../CountriesList/CountriesList";
 import { useState } from "react";
 import styles from "./CountrieDetails.module.scss";
-
 import ExpandedCountryInfo from "../ExpandedCountryInfo/ExpandedCountryInfo";
 import AccordionButton from "../../../AccordionButton/AccordionButton";
 

@@ -1,45 +1,50 @@
 .searchContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .searchBox {
-    display: flex;
-    flex-direction: column;
-  }
-  .searchTopText {
-    padding-left: 25px;
-  }
-  .inputContainer {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5px;
-  }
-  .searchInput {
-    all: unset;
-    width: 200px;
-    border: solid 1px grey;
-    border-radius: 8px;
-    padding: 4px 30px 2px 20px;
-    padding-bottom: 5px;
-    font-size: 1.25rem;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    transition: width 0.2s ease-in-out, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
-    &:hover {
-      box-shadow: 1px 1px 1px 1px;
-    }
-    &::placeholder {
-      color: gray;
-    }
+.searchBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchTopText {
+  padding-left: 25px;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.searchInput {
+  all: unset;
+  width: 200px;
+  border: solid 1px grey;
+  border-radius: 8px;
+  padding: 4px 30px 2px 20px;
+  padding-bottom: 5px;
+  font-size: 1.25rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transition: width 0.2s ease-in-out, box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 1px 1px 1px 1px;
   }
 
-  .inputIconContainer {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    color: rgb(87, 87, 87);
+  &::placeholder {
+    color: gray;
   }
+}
+
+.inputIconContainer {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: rgb(87, 87, 87);
+}

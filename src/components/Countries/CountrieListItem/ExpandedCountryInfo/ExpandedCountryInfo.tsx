@@ -19,6 +19,7 @@ const GET_COUNTRY = gql`
 `;
 
 const ExpandedCountryInfo = ({ country }: CountryProps) => {
+  
   const { data, loading } = useQuery<{ country: Country }>(GET_COUNTRY, {
     variables: { code: country.code },
   });
@@ -26,6 +27,7 @@ const ExpandedCountryInfo = ({ country }: CountryProps) => {
   if (loading) {
     return <ExtendedLoading />;
   }
+
   if (!data) {
     return <span>Error: no data available</span>;
   }

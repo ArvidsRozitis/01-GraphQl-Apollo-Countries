@@ -3,7 +3,6 @@ import styles from "./ExtendedLoading.module.scss";
 const ExtendedLoading = () => {
   return (
     <>
-      <hr className={styles.divider} />
       <div className={styles.container}>
         <div className={styles.extendedInfoWrapper}>
           <h3 className={styles.heading}>Capital: Loading...</h3>

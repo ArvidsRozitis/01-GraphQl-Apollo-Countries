@@ -1,4 +1,5 @@
 .container {
+  position: relative;
   display: flex;
   min-height: 130px;
   justify-content: space-between;
@@ -17,9 +18,12 @@
 }
 
 .imageContainer {
+  position: absolute;
   display: flex;
   min-height: 120px;
   align-items: center;
+  right: 20px;
+  bottom: 8px;
 }
 
 .extendedInfoWrapper {

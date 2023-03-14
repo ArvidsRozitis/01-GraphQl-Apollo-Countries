@@ -51,7 +51,7 @@ const ExpandedCountryInfo = ({ country }: CountryProps) => {
           <img
             className={styles.image}
             src={`https://flagsapi.com/${country.code}/shiny/64.png`}
-            alt="image mising"
+            onError={(event) => event.currentTarget.style.display = 'none'}
           />
         </div>
       </div>
